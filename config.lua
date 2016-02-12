@@ -1,5 +1,5 @@
 return {
-	bot_api_key = '',
+	bot_api_key = '172514446:AAEt89gtrpGUiTlu0OXoc7X9Fjk0_90ri2E',
 	google_api_key = '',
 	google_cse_key = '',
 	lastfm_api_key = '',
@@ -59,47 +59,31 @@ Send /help to get started.
 	},
 	moderation = {
 		admins = {
-			['00000000'] = 'You'
+			['157337513'] = 'You'
 		},
-		admin_group = -00000000,
+		admin_group = -315733751,
 		realm_name = 'My Realm'
 	},
 	plugins = {
 		'control.lua',
 		'blacklist.lua',
-		'about.lua',
-		'floodcontrol.lua',
-		'ping.lua',
-		'whoami.lua',
-		'nick.lua',
+		'Gps.lua',
+		'id.lua',
+		'lacationlua',
+		'version.lua',
+		'weater.lua',
 		'echo.lua',
 		'gSearch.lua',
 		'gImages.lua',
 		'gMaps.lua',
 		'youtube.lua',
 		'wikipedia.lua',
-		'hackernews.lua',
-		'imdb.lua',
 		'calc.lua',
-		'urbandictionary.lua',
+                'webshot.lua',
 		'time.lua',
 		'eightball.lua',
-		'reactions.lua',
-		'dice.lua',
-		'reddit.lua',
-		'xkcd.lua',
-		'slap.lua',
-		'commit.lua',
-		'pun.lua',
 		'pokedex.lua',
-		'bandersnatch.lua',
-		'currency.lua',
-		'cats.lua',
-		'hearthstone.lua',
 		'shout.lua',
-		'apod.lua',
-		-- Put new plugins above this line.
-		'help.lua',
-		'greetings.lua'
+		
 	}
 }
