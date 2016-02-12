@@ -69,7 +69,7 @@ Send /help to get started.
 		'blacklist.lua',
 		'Gps.lua',
 		'id.lua',
-		'lacationlua',
+		'lacation.lua',
 		'version.lua',
 		'weater.lua',
 		'echo.lua',
